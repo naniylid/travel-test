@@ -1,0 +1,63 @@
+/* KievitPro Regular */
+@font-face {
+    font-family: 'KievitPro';
+    src: url('assets/fonts/KievitPro-Regular.woff') format('woff'),
+        url('assets/fonts/KievitPro-Regular.woff2') format('woff2'),
+        url('assets/fonts/KievitPro-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* KievitPro Bold */
+@font-face {
+    font-family: 'KievitPro';
+    src: url('assets/fonts/KievitPro-Bold.woff') format('woff'),
+        url('assets/fonts/KievitPro-Bold.woff2') format('woff2'),
+        url('assets/fonts/KievitPro-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* KievitPro Medium */
+@font-face {
+    font-family: 'KievitPro';
+    src: url('assets/fonts/KievitPro-Medium.woff') format('woff'),
+        url('assets/fonts/KievitPro-Medium.woff2') format('woff2'),
+        url('assets/fonts/KievitPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* KievitPro Light */
+@font-face {
+    font-family: 'KievitPro';
+    src: url('assets/fonts/KievitPro-Light.woff') format('woff'),
+        url('assets/fonts/KievitPro-Light.woff2') format('woff2'),
+        url('assets/fonts/KievitPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Roboto Regular */
+@font-face {
+    font-family: 'Roboto';
+    src: url('assets/fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Roboto Bold */
+@font-face {
+    font-family: 'Roboto';
+    src: url('assets/fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Roboto Medium */
+@font-face {
+    font-family: 'Roboto';
+    src: url('assets/fonts/Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}

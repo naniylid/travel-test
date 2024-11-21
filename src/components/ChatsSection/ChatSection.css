@@ -1,0 +1,158 @@
+.chats-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 50px;
+}
+
+.chats-section > .user-chat {
+    border-right: 2px solid #ebe9e4;
+    padding-right: 23px;
+}
+
+.chats-section > .admin-chat {
+    padding-left: 23px;
+}
+
+.chats-section h1 {
+    margin-bottom: 25px;
+}
+
+.chat-window {
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.chat-header {
+    padding: 26px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-column-gap: 19px;
+    -moz-column-gap: 19px;
+    column-gap: 19px;
+    border-bottom: 1px solid #ececec;
+}
+
+.chat-header img {
+    width: 44px;
+    height: 44px;
+}
+
+.user-info h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 94%;
+}
+
+.user-info p {
+    margin-top: 7px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 131%;
+    color: #ff4641;
+}
+
+.stars-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+}
+
+.chat-messages {
+    padding: 13px;
+    overflow-y: auto;
+    height: 496px;
+}
+
+.chat-messages::-webkit-scrollbar {
+    width: 3px;
+}
+
+.chat-messages::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.chat-messages::-webkit-scrollbar-thumb {
+    background-color: #ff4641;
+}
+
+.chat-messages::-webkit-scrollbar-button {
+    display: none;
+}
+
+.message {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 19px;
+    -moz-column-gap: 19px;
+    column-gap: 19px;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start;
+    padding: 12px;
+}
+
+.user-avatar {
+    width: 44px;
+    height: 44px;
+}
+
+.message-sent {
+    background: #f9f7f2;
+}
+
+.message-info > .text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+}
+
+.message-info > .time {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 227%;
+    text-align: right;
+    color: #9d9d9d;
+}
+
+.chat-input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 29px 19px 31px 26px;
+    gap: 15px;
+    border-top: 1px solid #ececec;
+}
+
+.chat-input input {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #a3a2a2;
+    padding-left: 24px;
+    border: 1px solid #ececec;
+    width: 270px;
+    height: 49px;
+}
+
+.chat-input button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
